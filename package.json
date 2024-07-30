@@ -1,0 +1,26 @@
+{
+  "name": "ottojonas",
+  "version": "1.0.0",
+  "description": "readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottojonas/ottojonas.git"
+  },
+  "author": "ottojonas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ottojonas/ottojonas/issues"
+  },
+  "homepage": "https://github.com/ottojonas/ottojonas#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "mustache": "^4.2.0",
+    "nodemon": "^3.1.4",
+    "octokit": "^4.0.2"
+  }
+}
