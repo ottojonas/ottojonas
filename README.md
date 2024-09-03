@@ -1,5 +1,6 @@
 # 💫 About Me:
 21
+i like learning new things. im not a professional in the tech stack items. but i have experience and am learning all of them
 
 
 # 💻 Tech Stack:
