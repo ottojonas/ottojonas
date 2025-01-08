@@ -13,4 +13,6 @@
 
   <br>
 
+  <h2>Disclaimer</h2>
+  <p>No project is fully available to view - I'm working on them</p>
 </div>
