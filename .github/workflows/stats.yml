@@ -28,7 +28,9 @@ jobs:
           git commit -m "Update stats card (dark)" || echo 'No changes to commit'
 
       - name: Commit languages.svg
-        run: |
+        run: | 
+          git config --global user.name "ottojonas"
+          git config --global user.email "ottobjonas@outlook.com"
           git add assets/languages.svg --force
           git commit -m "Update languages card (dark)" || echo 'No changes to commit'
 
