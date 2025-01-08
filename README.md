@@ -4,7 +4,7 @@
   </a>
   
   <br>
-  
+  <h2 align="center">Stats</h2>
   <img src="assets/stats.svg" />
 
   <img align="bottom" src="assets/languages.svg" />
@@ -27,8 +27,12 @@
 
   <br>
 
-  <h2 align = "center"> What I Use</h2>
+  <h2 align = "center">What I Use</h2>
   <p align = "center"><a href = "https://github.com/ottojonas/config-and-equipment">Hardware and Software</a></p>
+
+  <br>
+
+  <h2 align="center">Connect With Me</h2>
 
   <br>
 
