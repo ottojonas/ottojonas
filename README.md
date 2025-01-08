@@ -15,5 +15,6 @@
 
   <h2>Disclaimer</h2>
   <p>No project is fully available to view - I'm working on them</p><br>
+  <p>Number of projects need to be modified to be made public due to me having private data and api keys in them</p><br>
   <p>Projects made public by request</p>
 </div>
