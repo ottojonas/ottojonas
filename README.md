@@ -7,6 +7,6 @@
   
   <img src="assets/stats.svg" />
 
-  <img align="bottom" src="assets/langauges.svg" />
+  <img align="bottom" src="assets/languages.svg" />
 
 </div>
