@@ -30,5 +30,5 @@
   <h2 align = "center">Disclaimer</h2>
   <p align = "center">No project is fully available to view - I'm working on them</p><br>
   <p align = "center">Number of projects need to be modified to be made public due to me having private data and api keys in them</p><br>
-  <palign = "center">Projects made public by request</p>
+  <p align = "center">Projects made public by request</p>
 
