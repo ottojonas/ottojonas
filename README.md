@@ -27,8 +27,12 @@
 
   <br>
 
+  <h2 align = "center"> What I Use</h2>
+  <p align = "center"><a href = "https://github.com/ottojonas/config-and-equipment">Hardware and Software</a></p>
+
+  <br>
+
   <h2 align = "center">Disclaimer</h2>
   <p align = "center">No project is fully available to view - I'm working on them</p><br>
   <p align = "center">Number of projects need to be modified to be made public due to me having private data and api keys in them</p><br>
   <p align = "center">Projects made public by request</p>
-
