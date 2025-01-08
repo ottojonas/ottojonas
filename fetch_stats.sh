@@ -1,6 +1,6 @@
 #!/bin/bash
 # Fetch GitHub stats
-curl -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=ottojonas&show_icons=true&theme=transparent&hide_border=true&line_height=27&include_all_commits=true"
+curl -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=ottojonas&show_icons=true&theme=transparent&hide_border=true&line_height=27"
 curl -o assets/languages.svg "https://github-readme-stats.vercel.app/api/top-langs?username=ottojonas&show_icons=true&theme=transparent&hide_border=true&layout=compact"
 
 # Fetch WakaTime badge
