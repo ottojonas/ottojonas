@@ -1,0 +1,37 @@
+name: Update Stats
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  update_stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch stats
+        run: |
+          bash ./fetch_stats.sh
+
+      - name: Commit stats.svg
+        run: |
+          git config --global user.name "ottojonas"
+          git config --global user.email "ottobjonas@outlook.com"
+          git add assets/stats.svg --force
+          git commit -m "Update stats card (dark)" || echo 'No changes to commit'
+
+      - name: Commit languages.svg
+        run: |
+          git add assets/languages.svg --force
+          git commit -m "Update languages card (dark)" || echo 'No changes to commit'
+
+      - name: Push changes
+        run: |
+          git push
