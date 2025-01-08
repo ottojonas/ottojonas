@@ -38,6 +38,7 @@
   <a href = "https://discord.com/users/1245513579881304108">Discord</a>
   <a href = "https://x.com/ottobjonas">Twitter</a>
   <a href = "https://www.instagram.com/ottobjonas/">Instagram</a>
+  <a href = "https://open.spotify.com/user/ottobjonas?si=dc3946c64e564349">Spotify</a>
 
   <br>
 
