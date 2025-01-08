@@ -9,4 +9,8 @@
 
   <img align="bottom" src="assets/languages.svg" />
 
+  <img src="assets/wakatime.svg" alt="Total time coded since May 23 2023" />
+
+  <br>
+
 </div>
