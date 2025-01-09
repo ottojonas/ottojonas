@@ -1,6 +1,10 @@
 <div align="center">
   <a href="https://discord.gg/NsVBm3gExu">
+<<<<<<< HEAD
   <img src="https://lanyard.cnrad.dev/api/1245513579881304108?hideStatus=true&bg=00000000&20&borderRadius=0&theme=dark&hideClan=true&hideDiscrim=true&hideBadges=true&idleMessage=touching%20grass" alt="Discord" />
+=======
+  <img src="https://lanyard.cnrad.dev/api/1245513579881304108?hideStatus=true&bg=00000000&idleMessage=touching%grass&20&borderRadius=0&hideActivity=whenNotUsed&ignoreAppId=978995592736944188&theme=dark" alt="Discord" />
+>>>>>>> ea858e14e83e3812c9f5718b460553b0bb3f29c3
   </a>
   
   <br>
