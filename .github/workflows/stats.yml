@@ -17,10 +17,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Fetch stats
-        run: |
-          bash ./fetch_stats.sh
+        run: ./fetch_stats.sh
+        shell: zsh
 
       - name: Commit stats.svg
+        continue-on-error: true
         run: |
           git config --global user.name "ottojonas"
           git config --global user.email "ottobjonas@outlook.com"
@@ -28,6 +29,7 @@ jobs:
           git commit -m "Update stats card (dark)" || echo 'No changes to commit'
 
       - name: Commit languages.svg
+        continue-on-error: true
         run: |
           git config --global user.name "ottojonas"
           git config --global user.email "ottobjonas@outlook.com"
@@ -35,6 +37,7 @@ jobs:
           git commit -m "Update languages card (dark)" || echo 'No changes to commit'
 
       - name: Commit wakatime.svg
+        continue-on-error: true
         run: |
           git config --global user.name "ottojonas"
           git config --global user.email "ottobjonas@outlook.com"
