@@ -1,49 +1,29 @@
 name: Update Stats
 
-permissions:
-  contents: write
-
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/30 * * * *"
 
 jobs:
-  update_stats:
+  update-stats:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - name: Fetch stats
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Run fetch_stats.sh
         run: ./fetch_stats.sh
-        shell: zsh
 
-      - name: Commit stats.svg
-        continue-on-error: true
+      - name: Commit and push changes
         run: |
-          git config --global user.name "ottojonas"
-          git config --global user.email "ottobjonas@outlook.com"
-          git add assets/stats.svg --force
-          git commit -m "Update stats card (dark)" || echo 'No changes to commit'
-
-      - name: Commit languages.svg
-        continue-on-error: true
-        run: |
-          git config --global user.name "ottojonas"
-          git config --global user.email "ottobjonas@outlook.com"
-          git add assets/languages.svg --force
-          git commit -m "Update languages card (dark)" || echo 'No changes to commit'
-
-      - name: Commit wakatime.svg
-        continue-on-error: true
-        run: |
-          git config --global user.name "ottojonas"
-          git config --global user.email "ottobjonas@outlook.com"
-          git add assets/wakatime.svg --force
-          git commit -m "Update wakatime" || echo 'No changes to commit'
-
-      - name: Push changes
-        run: |
+          git add . 
+          git commit -m 'update stats and languages'
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
