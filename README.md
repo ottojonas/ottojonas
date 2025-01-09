@@ -9,7 +9,7 @@
 
   <img align="bottom" src="assets/languages.svg" />
 
-  <img src="assets/wakatime.svg" alt="Total time coded since May 23 2023" />
+  <img src="https://wakatime.com/badge/user/6301085b-3500-4984-b7b3-0090a149006e.svg?style=social" alt="Total time coded since May 23 2023" />
 </div>
   <br>
 
