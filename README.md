@@ -11,9 +11,6 @@
 
   <img align="bottom" src="assets/languages.svg" />
 
-  <!--START_SECTION:waka-->
-
-  <!--END_SECTION:waka-->
 </div>
   <div align = "center">
   <h2>My Bible</h2>
@@ -49,6 +46,10 @@
   <a href = "https://open.spotify.com/user/ottobjonas?si=dc3946c64e564349">Spotify</a>
 
   <br>
+
+  <!--START_SECTION:waka-->
+
+  <!--END_SECTION:waka-->
 
   <h2 align = "center">Disclaimer</h2>
   <p align = "center">No project is fully available to view - I'm working on them</p><br>
