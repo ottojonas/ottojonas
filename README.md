@@ -5,12 +5,17 @@
   <a href="https://discord.gg/NsVBm3gExu#gh-light-mode-only">
   <img src="https://lanyard.cnrad.dev/api/1245513579881304108?hideStatus=true&bg=00000000&20&borderRadius=0&theme=dark&hideClan=true&hideDecoration=true&hideDiscrim=true&showDisplayName=true&hideBadges=true&hideStatus=true&idleMessage=touching%20grass" alt="Discord" />
   </a>
+
+
   <br>
+
+  
   <h2 align="center">Stats</h2>
   <img src="assets/stats.svg" />
 
   <img align="bottom" src="assets/languages.svg" />
 </div>
+
 
 <br>
 
@@ -33,10 +38,14 @@ Other              72 hrs 5 mins   ██▒░░░░░░░░░░░░
 
 
 <br>
-  <div align = "center">
+
+  
+<div align = "center">
   <h2>My Bible</h2>
   <a href = "https://github.com/ottojonas/ottos-bible"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" /></a>
 </div>
+
+
   <br>
 
   <h2 align = "center">About Me</h2>
