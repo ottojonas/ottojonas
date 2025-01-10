@@ -6,7 +6,7 @@ on:
 
 jobs:
   update-stats:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -23,20 +23,26 @@ jobs:
       - name: Run fetch_stats.sh
         run: ./fetch_stats.sh
 
+      - name: Print file contents
+        run: |
+          cat assets/stats.svg
+          cat assets/languages.svg
+          cat assets/ottosbible.svg
+
       - name: Check for changes
         id: changes
         run: |
-          git add assets/stats.svg assets/languages.svg
+          git add assets/stats.svg assets/languages.svg assets/ottosbible.svg
           if git diff-index --quiet HEAD; then
             echo "No changes detected"
-            echo "changes_detected=false" >> $GITHUB_ENV
+            echo "::set-output name=changes_detected::false"
           else
             echo "Changes detected"
-            echo "changes_detected=true" >> $GITHUB_ENV
+            echo "::set-output name=changes_detected::true"
           fi
 
       - name: Commit and push changes
-        if: env.changes_detected == 'true'
+        if: steps.changes.outputs.changes_detected == 'true'
         run: |
           git commit -m 'update stats and languages'
           git push
