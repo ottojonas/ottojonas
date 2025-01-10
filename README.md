@@ -15,6 +15,10 @@
 
   <!--END_SECTION:waka-->
 </div>
+  <div align = "center">
+  <h2>My Bible</h2>
+  <img src="assets/ottosbible.svg" />
+</div>
   <br>
 
   <h2 align = "center">About Me</h2>
@@ -34,7 +38,6 @@
   <h2 align = "center">What I Use</h2>
   <p align = "center"><a href = "https://github.com/ottojonas/config-and-equipment/hardware">Hardware</a></p>
   <p align = "center"><a href = "https://github.com/ottojonas/config-and-equipment/software-configs">Software and Configs</a></p>
-  <p align = "center"><a href = "https://github.com/ottojonas/ottos-bible">My Bible</a></p>
   <br>
 
   <h2 align="center">Connect With Me</h2>
