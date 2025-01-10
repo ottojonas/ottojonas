@@ -16,9 +16,9 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           # content
           SHOW_TITLE: true
-          SHOW_OS: true
-          SHOW_PROJECTS: true
-          SHOW_DAYS_OF_WEEK: true
+          SHOW_OS: "True"
+          SHOW_PROJECTS: "True"
+          SHOW_DAYS_OF_WEEK: "True"
           SECTION_NAME: waka
           BLOCKS: ░▒▓█
           CODE_LANG: rust
