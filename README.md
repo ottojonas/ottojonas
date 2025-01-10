@@ -22,7 +22,7 @@
 ```rust
 From: 22 May 2023 - To: 09 January 2025
 
-Total Time: 748 hrs 21 mins
+Total Time: 820 hrs 27 mins
 
 Python             450 hrs 37 mins █████████████▓░░░░░░░░░░░   54.92 %
 JavaScript         128 hrs         ████░░░░░░░░░░░░░░░░░░░░░   15.60 %
