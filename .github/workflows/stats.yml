@@ -6,7 +6,7 @@ on:
 
 jobs:
   update-stats:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout repository
@@ -26,17 +26,17 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git add assets/stats.svg assets/languages.svg 
+          git add assets/stats.svg assets/languages.svg
           if git diff-index --quiet HEAD; then
             echo "No changes detected"
-            echo "::set-output name=changes_detected::false"
+            echo "changes_detected=false" >> $GITHUB_ENV
           else
             echo "Changes detected"
-            echo "::set-output name=changes_detected::true"
+            echo "changes_detected=true" >> $GITHUB_ENV
           fi
 
       - name: Commit and push changes
-        if: steps.changes.outputs.changes_detected == 'true'
+        if: env.changes_detected == 'true'
         run: |
           git commit -m 'update stats and languages'
           git push
