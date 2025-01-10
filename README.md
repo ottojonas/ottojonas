@@ -7,14 +7,19 @@
   </a>
   <br>
   <h2 align="center">Stats</h2>
-  <img src="assets/stats.svg" />
-
-  <img align="bottom" src="assets/languages.svg" />
+  <a>
+    <img height=200 align="center" src="assets/stats.svg" />
+  </a>
+  <a>
+    <img height=200 align="center" src="assets/languages.svg" />
+  </a>
 
 </div>
   <div align = "center">
   <h2>My Bible</h2>
-  <a href = "https://github.com/ottojonas/ottos-bible"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" /></a>
+  <a href = "https://github.com/ottojonas/ottos-bible">
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" />
+  </a>
 </div>
   <br>
 
