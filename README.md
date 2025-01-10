@@ -12,10 +12,10 @@
   
   <h2 align="center">Stats</h2>
   <a>
-    <img height=200 align="center" src="assets/stats.svg" />
+    <img src="assets/stats.svg" />
   </a>
   <a>
-    <img height=200 align="center" src="assets/languages.svg" />
+    <img align="bottom" src="assets/languages.svg" />
   </a>
 
 </div>
@@ -47,7 +47,7 @@ Other              72 hrs 5 mins   ██▒░░░░░░░░░░░░
 <div align = "center">
   <h2>My Bible</h2>
   <a href = "https://github.com/ottojonas/ottos-bible">
-    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" />
   </a>
 </div>
 
