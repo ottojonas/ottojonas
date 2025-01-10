@@ -47,6 +47,8 @@
 
   <br>
 
+<h2 align = "center">WakaTime Stats</h2>
+
   <!--START_SECTION:waka-->
 
 ```rust
