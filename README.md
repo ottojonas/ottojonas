@@ -17,7 +17,7 @@
 </div>
   <div align = "center">
   <h2>My Bible</h2>
-  <img src="assets/ottosbible.svg" />
+  <a href = "https://github.com/ottojonas/ottos-bible"><img src="assets/ottosbible.svg" /></a>
 </div>
   <br>
 
