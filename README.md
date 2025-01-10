@@ -37,7 +37,7 @@
 
   <h2 align="center">Connect With Me</h2>
   <p align="center">
-  <a href = "https://github.com/ottojonas">GitHub</a>
+  <a href = "mailto:ottobjonas@outlook.com">Email</a>
   <a href = "https://discord.com/users/1245513579881304108">Discord</a>
   <a href = "https://x.com/ottobjonas">Twitter</a>
   <a href = "https://www.instagram.com/ottobjonas/">Instagram</a>
