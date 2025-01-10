@@ -5,7 +5,11 @@
   <a href="https://discord.gg/NsVBm3gExu#gh-light-mode-only">
   <img src="https://lanyard.cnrad.dev/api/1245513579881304108?hideStatus=true&bg=00000000&20&borderRadius=0&theme=dark&hideClan=true&hideDecoration=true&hideDiscrim=true&showDisplayName=true&hideBadges=true&hideStatus=true&idleMessage=touching%20grass" alt="Discord" />
   </a>
+
+
   <br>
+
+  
   <h2 align="center">Stats</h2>
   <a>
     <img height=200 align="center" src="assets/stats.svg" />
@@ -15,12 +19,39 @@
   </a>
 
 </div>
-  <div align = "center">
+
+
+<br>
+
+
+<h2 align = "center">WakaTime Stats</h2>
+
+  <!--START_SECTION:waka-->
+
+```rust
+From: 22 May 2023 - To: 09 January 2025
+
+Total Time: 820 hrs 27 mins
+
+Python             450 hrs 37 mins █████████████▓░░░░░░░░░░░   54.92 %
+JavaScript         128 hrs         ████░░░░░░░░░░░░░░░░░░░░░   15.60 %
+Other              72 hrs 5 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.79 %
+```
+
+<!--END_SECTION:waka-->
+
+
+<br>
+
+  
+<div align = "center">
   <h2>My Bible</h2>
   <a href = "https://github.com/ottojonas/ottos-bible">
     <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" />
   </a>
 </div>
+
+
   <br>
 
   <h2 align = "center">About Me</h2>
@@ -52,21 +83,6 @@
 
   <br>
 
-<h2 align = "center">WakaTime Stats</h2>
-
-  <!--START_SECTION:waka-->
-
-```rust
-From: 22 May 2023 - To: 09 January 2025
-
-Total Time: 748 hrs 21 mins
-
-Python             450 hrs 37 mins █████████████▓░░░░░░░░░░░   54.92 %
-JavaScript         128 hrs         ████░░░░░░░░░░░░░░░░░░░░░   15.60 %
-Other              72 hrs 5 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.79 %
-```
-
-<!--END_SECTION:waka-->
 
   <h2 align = "center">Disclaimer</h2>
   <p align = "center">No project is fully available to view - I'm working on them</p><br>
