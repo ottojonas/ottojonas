@@ -10,8 +10,29 @@
   <img src="assets/stats.svg" />
 
   <img align="bottom" src="assets/languages.svg" />
-
 </div>
+
+<br>
+
+
+<h2 align = "center">WakaTime Stats</h2>
+
+  <!--START_SECTION:waka-->
+
+```rust
+From: 22 May 2023 - To: 09 January 2025
+
+Total Time: 748 hrs 21 mins
+
+Python             450 hrs 37 mins █████████████▓░░░░░░░░░░░   54.92 %
+JavaScript         128 hrs         ████░░░░░░░░░░░░░░░░░░░░░   15.60 %
+Other              72 hrs 5 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.79 %
+```
+
+<!--END_SECTION:waka-->
+
+
+<br>
   <div align = "center">
   <h2>My Bible</h2>
   <a href = "https://github.com/ottojonas/ottos-bible"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" /></a>
@@ -47,21 +68,6 @@
 
   <br>
 
-<h2 align = "center">WakaTime Stats</h2>
-
-  <!--START_SECTION:waka-->
-
-```rust
-From: 22 May 2023 - To: 09 January 2025
-
-Total Time: 748 hrs 21 mins
-
-Python             450 hrs 37 mins █████████████▓░░░░░░░░░░░   54.92 %
-JavaScript         128 hrs         ████░░░░░░░░░░░░░░░░░░░░░   15.60 %
-Other              72 hrs 5 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.79 %
-```
-
-<!--END_SECTION:waka-->
 
   <h2 align = "center">Disclaimer</h2>
   <p align = "center">No project is fully available to view - I'm working on them</p><br>
