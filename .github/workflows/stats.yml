@@ -17,6 +17,9 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
+      - name: Make fetch_stats.sh executable
+        run: chmod +x fetch_stats.sh
+
       - name: Run fetch_stats.sh
         run: ./fetch_stats.sh
 
