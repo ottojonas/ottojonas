@@ -16,6 +16,8 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           # content
           SHOW_TITLE: true
+          SHOW_OS: true
+          SHOW_PROJECTS: true
           SECTION_NAME: waka
           BLOCKS: ░▒▓█
           CODE_LANG: rust
