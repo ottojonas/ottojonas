@@ -29,13 +29,13 @@
   <!--START_SECTION:waka-->
 
 ```rust
-From: 22 May 2023 - To: 09 January 2025
+From: 22 May 2023 - To: 10 January 2025
 
-Total Time: 820 hrs 27 mins
+Total Time: 831 hrs 23 mins
 
-Python             450 hrs 37 mins █████████████▓░░░░░░░░░░░   54.92 %
-JavaScript         128 hrs         ████░░░░░░░░░░░░░░░░░░░░░   15.60 %
-Other              72 hrs 5 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.79 %
+Python             450 hrs 45 mins █████████████▓░░░░░░░░░░░   54.22 %
+JavaScript         128 hrs         ████░░░░░░░░░░░░░░░░░░░░░   15.40 %
+Other              79 hrs 30 mins  ██▒░░░░░░░░░░░░░░░░░░░░░░   09.56 %
 ```
 
 <!--END_SECTION:waka-->
