@@ -6,10 +6,8 @@
   <img src="https://lanyard.cnrad.dev/api/1245513579881304108?hideStatus=true&bg=00000000&20&borderRadius=0&theme=dark&hideClan=true&hideDecoration=true&hideDiscrim=true&showDisplayName=true&hideBadges=true&hideStatus=true&idleMessage=touching%20grass" alt="Discord" />
   </a>
 
-
   <br>
 
-  
   <h2 align="center">Stats</h2>
   <a>
     <img src="assets/stats.svg" />
@@ -20,9 +18,7 @@
 
 </div>
 
-
 <br>
-
 
 <h2 align = "center">WakaTime Stats</h2>
 
@@ -40,17 +36,14 @@ Other              79 hrs 44 mins  ██▒░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 
-
 <br>
 
-  
 <div align = "center">
   <h2>My Bible</h2>
   <a href = "https://github.com/ottojonas/ottos-bible">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" />
   </a>
 </div>
-
 
   <br>
 
@@ -69,8 +62,9 @@ Other              79 hrs 44 mins  ██▒░░░░░░░░░░░░
   <br>
 
   <h2 align = "center">What I Use</h2>
-  <p align = "center"><a href = "https://github.com/ottojonas/config-and-equipment/tree/main/hardware">Hardware</a></p>
-  <p align = "center"><a href = "https://github.com/ottojonas/config-and-equipment/tree/main/software-configs">Software and Configs</a></p>
+  <a href = "https://github.com/ottojonas/config-and-equipment">
+    <img align="center" src = "https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=config-and-equipment&theme=transparent&hide_border=true">
+  </a>
   <br>
 
   <h2 align="center">Connect With Me</h2>
@@ -82,7 +76,6 @@ Other              79 hrs 44 mins  ██▒░░░░░░░░░░░░
   <a href = "https://open.spotify.com/user/ottobjonas?si=dc3946c64e564349">Spotify</a>
 
   <br>
-
 
   <h2 align = "center">Disclaimer</h2>
   <p align = "center">No project is fully available to view - I'm working on them</p><br>
