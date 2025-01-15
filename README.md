@@ -15,7 +15,6 @@
   <a>
     <img align="bottom" src="assets/languages.svg" />
   </a>
-v
 </div>
 
 <br>
