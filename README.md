@@ -15,7 +15,7 @@
   <a>
     <img align="bottom" src="assets/languages.svg" />
   </a>
-
+v
 </div>
 
 <br>
@@ -25,13 +25,13 @@
   <!--START_SECTION:waka-->
 
 ```rust
-From: 22 May 2023 - To: 14 January 2025
+From: 22 May 2023 - To: 13 January 2025
 
-Total Time: 852 hrs 8 mins
+Total Time: 842 hrs 12 mins
 
-Python             451 hrs 25 mins █████████████▒░░░░░░░░░░░   52.98 %
-JavaScript         128 hrs 43 mins ███▓░░░░░░░░░░░░░░░░░░░░░   15.11 %
-Other              86 hrs 29 mins  ██▓░░░░░░░░░░░░░░░░░░░░░░   10.15 %
+Python             451 hrs 15 mins █████████████▒░░░░░░░░░░░   53.58 %
+JavaScript         128 hrs 25 mins ███▓░░░░░░░░░░░░░░░░░░░░░   15.25 %
+Other              83 hrs 32 mins  ██▒░░░░░░░░░░░░░░░░░░░░░░   09.92 %
 ```
 
 <!--END_SECTION:waka-->
@@ -74,6 +74,11 @@ Other              86 hrs 29 mins  ██▓░░░░░░░░░░░░
   <a href = "https://x.com/ottobjonas">Twitter</a>
   <a href = "https://www.instagram.com/ottobjonas/">Instagram</a>
   <a href = "https://open.spotify.com/user/ottobjonas?si=dc3946c64e564349">Spotify</a>
+  <div align = "center">
+    <a href = "https://discord.gg/wdtYdfpWy9">
+    <img src="https://discord.com/api/guilds/1291105377286357119/widget.png?style=banner2" />
+    </a>
+  </div>
 
   <br>
 
