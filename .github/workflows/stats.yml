@@ -27,12 +27,11 @@ jobs:
         run: |
           cat assets/stats.svg
           cat assets/languages.svg
-          cat assets/ottosbible.svg
 
       - name: Check for changes
         id: changes
         run: |
-          git add assets/stats.svg assets/languages.svg assets/ottosbible.svg
+          git add .
           if git diff-index --quiet HEAD; then
             echo "No changes detected"
             echo "::set-output name=changes_detected::false"
