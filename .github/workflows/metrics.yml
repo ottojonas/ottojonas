@@ -64,9 +64,9 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git add assets/isocalendar-metrics.svg assets/wakatime-metrics.svg
+          git add assets/isocalendar-metrics.svg assets/metrics.plugin.wakatime.svg
           if [ "${{ steps.check_file.outputs.file_exists }}" == "true" ]; then
-            git add assets/repository-metrics.svg
+            git add assets/metrics.repository.svg
           fi
           if git diff-index --quiet HEAD; then
             echo "No changes detected"
