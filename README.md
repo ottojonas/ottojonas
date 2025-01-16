@@ -21,21 +21,6 @@
 
 <h2 align = "center">WakaTime Stats</h2>
 
-  <!--START_SECTION:waka-->
-
-```bash
-From: 22 May 2023 - To: 15 January 2025
-
-Total Time: 862 hrs 16 mins
-
-Python             451 hrs 59 mins ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   52.42 %
-JavaScript         129 hrs 41 mins ⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.04 %
-Other              90 hrs 13 mins  ⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   10.46 %
-TypeScript         60 hrs 58 mins  ⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   07.07 %
-HTML               37 hrs 11 mins  ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.31 %
-```
-
-<!--END_SECTION:waka-->
 <div align="center">
   <img src="assets/metrics.plugin.wakatime.svg" alt="WakaTime Metrics" />
 </div>
