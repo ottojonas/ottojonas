@@ -38,9 +38,11 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          repositories: ottojonas/ottos-bible
-          config_display: repository
+          template: repository
+          user: ottojonas
+          repo: ottos-bible
+          plugin_lines: yes
+          plugin_followup: yes
           filename: assets/repository-metrics.svg
 
       - name: Check if repository metrics file exists
