@@ -37,7 +37,7 @@ jobs:
       - name: Generate repository metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           repositories: ottojonas/ottos-bible
           config_display: repository
@@ -61,7 +61,7 @@ jobs:
           git commit -m 'Update GitHub metrics'
           git push
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Commit and push changes without repository metrics
         if: steps.check_file.outputs.file_exists == 'false'
@@ -70,4 +70,4 @@ jobs:
           git commit -m 'Update GitHub metrics (without repository metrics)'
           git push
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
