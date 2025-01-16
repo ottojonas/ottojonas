@@ -34,7 +34,7 @@ jobs:
           plugin_wakatime_sections: time, projects, languages, editors, os, categories, projects-graphs, languages-graphs,editors-graphs
           filename: assets/metrics.plugin.wakatime.svg
 
-      - name: Generate repository metrics
+      - name: Generate repository metrics for ottos-bible
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -44,6 +44,17 @@ jobs:
           plugin_lines: yes
           plugin_followup: yes
           filename: assets/metrics.repository.svg
+
+      - name: Generate repository metrics for config-and-equipment
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          template: repository
+          user: ottojonas
+          repo: config-and-equipment
+          plugin_lines: yes
+          plugin_followup: yes
+          filename: assets/metrics.config-and-equipment.svg
 
       - name: Check if repository metrics file exists
         id: check_file
@@ -68,6 +79,7 @@ jobs:
           if [ "${{ steps.check_file.outputs.file_exists }}" == "true" ]; then
             git add assets/metrics.repository.svg
           fi
+          git add assets/metrics.config-and-equipment.svg
           if git diff-index --quiet HEAD; then
             echo "No changes detected"
             echo "::set-output name=changes_detected::false"

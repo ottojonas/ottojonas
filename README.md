@@ -55,10 +55,12 @@
 
   <br>
 
+  <div align = "center">
   <h2 align = "center">What I Use</h2>
   <a href = "https://github.com/ottojonas/config-and-equipment">
-    <img align="center" src = "https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=config-and-equipment&theme=transparent&hide_border=true">
+    <img align="center" src = "assets/metrics.config-and-equipment.svg">
   </a>
+  </div>
   <br>
 
   <h2 align="center">Connect With Me</h2>
