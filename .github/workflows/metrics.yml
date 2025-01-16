@@ -32,7 +32,7 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_sections: time, projects, languages, editors, os, categories
-          filename: assets/wakatime-metrics.svg
+          filename: assets/metrics.plugin.wakatime.svg
 
       - name: Generate repository metrics
         uses: lowlighter/metrics@latest
