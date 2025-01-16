@@ -43,7 +43,7 @@ jobs:
           repo: ottos-bible
           plugin_lines: yes
           plugin_followup: yes
-          filename: assets/metrics.repository.svg
+          filename: assets/metrics.ottos-bible.svg
 
       - name: Generate repository metrics for config-and-equipment
         uses: lowlighter/metrics@latest
@@ -59,7 +59,7 @@ jobs:
       - name: Check if repository metrics file exists
         id: check_file
         run: |
-          if [ -f assets/repository-metrics.svg ]; then
+          if [ -f assets/metrics.ottos-bible.svg ]; then
             echo "File exists"
             echo "::set-output name=file_exists::true"
           else
@@ -77,7 +77,7 @@ jobs:
         run: |
           git add assets/isocalendar-metrics.svg assets/metrics.plugin.wakatime.svg
           if [ "${{ steps.check_file.outputs.file_exists }}" == "true" ]; then
-            git add assets/metrics.repository.svg
+            git add assets/metrics.ottos-bible.svg
           fi
           git add assets/metrics.config-and-equipment.svg
           if git diff-index --quiet HEAD; then
