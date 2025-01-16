@@ -36,7 +36,9 @@ HTML               37 hrs 11 mins  ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ```
 
 <!--END_SECTION:waka-->
-
+<div align="center">
+  <img src="assets/wakatime-metrics.svg" alt="WakaTime Metrics" />
+</div>
 <br>
 
 <div align = "center">
@@ -83,8 +85,9 @@ HTML               37 hrs 11 mins  ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
   <br>
 
-<!--START_SECTION:metrics-->
-<!--END_SECTION:metrics-->
+<div align="center">
+  <img src="assets/isocalendar-metrics.svg" alt="Isocalendar Metrics" />
+</div>
 
   <br>
 

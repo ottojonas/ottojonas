@@ -10,13 +10,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: lowlighter/metrics@latest
+
+      - name: Generate isocalendar metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           config_timezone: "UTC"
+          output: assets/isocalendar-metrics.svg
+
+      - name: Generate WakaTime metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_sections: time, projects, languages, editors, os, categories
+          output: assets/wakatime-metrics.svg
+
+      - name: Commit and push changes
+        run: |
+          git add assets/isocalendar-metrics.svg assets/wakatime-metrics.svg
+          git commit -m 'Update GitHub metrics'
+          git push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
