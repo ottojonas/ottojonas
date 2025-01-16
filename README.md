@@ -44,7 +44,7 @@ HTML               37 hrs 11 mins  ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <div align = "center">
   <h2>My Bible</h2> 
   <a href = "https://github.com/ottojonas/ottos-bible"> 
-    <img src="assets/repository-metrics.svg" /> 
+    <img src="assets/repository-metrics.svg"></img> 
   </a> 
 </div>
 

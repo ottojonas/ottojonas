@@ -43,7 +43,7 @@ jobs:
           repo: ottos-bible
           plugin_lines: yes
           plugin_followup: yes
-          filename: assets/repository-metrics.svg
+          filename: assets/metrics.repository.svg
 
       - name: Check if repository metrics file exists
         id: check_file
