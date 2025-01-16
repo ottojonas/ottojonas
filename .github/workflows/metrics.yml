@@ -43,10 +43,31 @@ jobs:
           config_display: repository
           filename: assets/repository-metrics.svg
 
+      - name: Check if repository metrics file exists
+        id: check_file
+        run: |
+          if [ -f assets/repository-metrics.svg ]; then
+            echo "File exists"
+            echo "::set-output name=file_exists::true"
+          else
+            echo "File does not exist"
+            echo "::set-output name=file_exists::false"
+          fi
+
       - name: Commit and push changes
+        if: steps.check_file.outputs.file_exists == 'true'
         run: |
           git add assets/isocalendar-metrics.svg assets/wakatime-metrics.svg assets/repository-metrics.svg
           git commit -m 'Update GitHub metrics'
+          git push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push changes without repository metrics
+        if: steps.check_file.outputs.file_exists == 'false'
+        run: |
+          git add assets/isocalendar-metrics.svg assets/wakatime-metrics.svg
+          git commit -m 'Update GitHub metrics (without repository metrics)'
           git push
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
