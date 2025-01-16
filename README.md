@@ -19,6 +19,12 @@
 
 <br>
 
+<div align="center">
+  <img src="assets/isocalendar-metrics.svg" alt="Isocalendar Metrics" />
+</div>
+
+<br>
+
 <h2 align = "center">WakaTime Stats</h2>
 
 <div align="center">
@@ -67,12 +73,6 @@
     <img src="https://discord.com/api/guilds/1291105377286357119/widget.png?style=banner2" />
     </a>
   </div>
-
-  <br>
-
-<div align="center">
-  <img src="assets/isocalendar-metrics.svg" alt="Isocalendar Metrics" />
-</div>
 
   <br>
 
