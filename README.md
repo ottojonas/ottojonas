@@ -43,10 +43,15 @@
 
 <br>
 
-<h2 align = "center">Currently Working On</h2>
-<div align = "center">
+<h2 align="center">Currently Working On</h2>
+<div align="center">
   <a href="https://github.com/ottojonas/peacockgpt">
-    <img src='assets/metrics.peacockgpt.svg' />
+    <img src="assets/metrics.peacockgpt.svg" />
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/ottojonas/jeaneth-app">
+    <img src="assets/metrics.jeaneth-app.svg" />
   </a>
 </div>
 <div align = "center">
