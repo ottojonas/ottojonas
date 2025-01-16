@@ -22,7 +22,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           config_timezone: "UTC"
-          output: assets/isocalendar-metrics.svg
+          filename: assets/isocalendar-metrics.svg
 
       - name: Generate WakaTime metrics
         uses: lowlighter/metrics@latest
@@ -32,7 +32,7 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_sections: time, projects, languages, editors, os, categories
-          output: assets/wakatime-metrics.svg
+          filename: assets/wakatime-metrics.svg
 
       - name: Generate repository metrics
         uses: lowlighter/metrics@latest
@@ -41,8 +41,8 @@ jobs:
           base: ""
           template: repository
           config_display: repository
-          repository: ottojonas/ottos-bible
-          output: assets/repository-metrics.svg
+          repositories: ottojonas/ottos-bible
+          filename: assets/repository-metrics.svg
 
       - name: Commit and push changes
         run: |
