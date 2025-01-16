@@ -59,20 +59,25 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Commit and push changes
-        if: steps.check_file.outputs.file_exists == 'true'
-        run: |
-          git add assets/isocalendar-metrics.svg assets/wakatime-metrics.svg assets/repository-metrics.svg
-          git commit -m 'Update GitHub metrics'
-          git push
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
-      - name: Commit and push changes without repository metrics
-        if: steps.check_file.outputs.file_exists == 'false'
+      - name: Check for changes
+        id: changes
         run: |
           git add assets/isocalendar-metrics.svg assets/wakatime-metrics.svg
-          git commit -m 'Update GitHub metrics (without repository metrics)'
+          if [ "${{ steps.check_file.outputs.file_exists }}" == "true" ]; then
+            git add assets/repository-metrics.svg
+          fi
+          if git diff-index --quiet HEAD; then
+            echo "No changes detected"
+            echo "::set-output name=changes_detected::false"
+          else
+            echo "Changes detected"
+            echo "::set-output name=changes_detected::true"
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changes_detected == 'true'
+        run: |
+          git commit -m 'Update GitHub metrics'
           git push
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
