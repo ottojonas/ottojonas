@@ -37,14 +37,14 @@ HTML               37 hrs 11 mins  ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 <!--END_SECTION:waka-->
 <div align="center">
-  <img src="assets/wakatime-metrics.svg" alt="WakaTime Metrics" />
+  <img src="assets/metrics.plugin.wakatime.svg" alt="WakaTime Metrics" />
 </div>
 <br>
 
 <div align = "center">
   <h2>My Bible</h2> 
   <a href = "https://github.com/ottojonas/ottos-bible"> 
-    <img src="assets/repository-metrics.svg"></img> 
+    <img src="assets/metrics.repository.svg"></img> 
   </a> 
 </div>
 
