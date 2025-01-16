@@ -37,7 +37,21 @@
 <h2 align="center">My Bible</h2>
 <div align="center">
   <a href="https://github.com/ottojonas/ottos-bible">
-    <img src="assets/metrics.repository.svg" alt="My Bible" />
+    <img src="assets/metrics.ottos-bible.svg" alt="My Bible" />
+  </a>
+</div>
+
+<br>
+
+<h2 align = "center">Currently Working On</h2>
+<div align = "center">
+  <a href="https://github.com/ottojonas/peacockgpt">
+    <img src='assets/metrics.peacockgpt.svg' />
+  </a>
+</div>
+<div align = "center">
+  <a href="https://github.com/ottojonas/Scribe">
+    <img src='assets/metrics.scribe.svg' />
   </a>
 </div>
 
