@@ -44,7 +44,7 @@ HTML               37 hrs 11 mins  ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <div align = "center">
   <h2>My Bible</h2> 
   <a href = "https://github.com/ottojonas/ottos-bible"> 
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ottojonas&repo=ottos-bible&theme=transparent&hide_border=true" /> 
+  <img align="center" src="assets/repository-metrics.svg" /> 
   </a> 
 </div>
 

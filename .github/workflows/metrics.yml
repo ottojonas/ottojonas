@@ -39,9 +39,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
-          template: repository
-          config_display: repository
           repositories: ottojonas/ottos-bible
+          config_display: repository
           filename: assets/repository-metrics.svg
 
       - name: Commit and push changes
