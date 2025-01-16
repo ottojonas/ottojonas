@@ -84,6 +84,11 @@ HTML               37 hrs 11 mins  ⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
   <br>
 
+<!--START_SECTION:metrics-->
+<!--END_SECTION:metrics-->
+
+  <br>
+
   <h2 align = "center">Disclaimer</h2>
   <p align = "center">No project is fully available to view - I'm working on them</p><br>
   <p align = "center">Number of projects need to be modified to be made public due to me having private data and api keys in them</p><br>
