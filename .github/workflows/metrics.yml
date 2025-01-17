@@ -32,6 +32,7 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_sections: time, projects, languages, editors, os, categories, projects-graphs, languages-graphs,editors-graphs
+          plugin_wakatime_days: 365
           filename: assets/metrics.plugin.wakatime.svg
 
       - name: Generate repository metrics for ottos-bible
