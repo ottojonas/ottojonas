@@ -2,9 +2,28 @@
   <a href="https://discord.gg/NsVBm3gExu#gh-dark-mode-only">
     <img src="https://lanyard.cnrad.dev/api/1245513579881304108?hideStatus=true&bg=00000000&20&borderRadius=0&theme=dark&hideClan=true&hideDecoration=true&hideDiscrim=true&showDisplayName=true&hideBadges=true&hideStatus=true&idleMessage=touching%20grass" alt="Discord" />
   </a>
-  <a href="https://discord.gg/NsVBm3gExu#gh-light-mode-only">
-    <img src="https://lanyard.cnrad.dev/api/1245513579881304108?hideStatus=true&bg=00000000&20&borderRadius=0&theme=dark&hideClan=true&hideDecoration=true&hideDiscrim=true&showDisplayName=true&hideBadges=true&hideStatus=true&idleMessage=touching%20grass" alt="Discord" />
-  </a>
+</div>
+
+<br>
+
+<h2 align="center">About Me</h2>
+<pre>
+<code>
+  > lifefetch
+  Name: Otto 
+  Age: 21
+  Location: UK
+  Occupation: Software Development and Security
+  Contact Email: ottobjonas@outlook.com
+</code>
+</pre>
+
+<br>
+
+<div align = "center">
+  <h2 >My Portfolio Website</h2>
+  <h3><a href = "https://ottojonas.vercel.app/index.html">ottojonas.com</a></h3>
+  <span>one day :)</span>
 </div>
 
 <br>
@@ -23,13 +42,6 @@
 
 <div align="center">
   <img src="assets/isocalendar-metrics.svg" alt="Isocalendar Metrics" />
-</div>
-
-<br>
-
-<h2 align="center">WakaTime Stats</h2>
-<div align="center">
-  <img src="assets/metrics.plugin.wakatime.svg" alt="WakaTime Metrics" />
 </div>
 
 <br>
@@ -59,20 +71,12 @@
     <img src='assets/metrics.scribe.svg' />
   </a>
 </div>
-
+<div align = "center">
+  <a href="https://github.com/ottojonas/CopilotPrototypeDemo">
+    <img src='assets/metrics.copilotprototypedemo.svg' />
+  </a>
+</div>
 <br>
-
-<h2 align="center">About Me</h2>
-<pre>
-<code>
-  > lifefetch
-  Name: Otto 
-  Age: 21
-  Location: UK
-  Occupation: Software and Security
-  Contact Email: ottobjonas@outlook.com
-</code>
-</pre>
 
 <br>
 
