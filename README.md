@@ -55,6 +55,15 @@
 
 <br>
 
+<h2 align = "center">My Visual Studio Code Extension</h2>
+<div align = "center">
+  <a href = "https://marketplace.visualstudio.com/items?itemName=ottobjonas.vscode-git-changes-checker&ssr=false#overview">
+    <img src = "assets/metrics.visualstudioplugin.svg" />
+  </a>
+</div>
+
+<br>
+
 <h2 align="center">Currently Working On</h2>
 <div align="center">
   <a href="https://github.com/ottojonas/peacockgpt">

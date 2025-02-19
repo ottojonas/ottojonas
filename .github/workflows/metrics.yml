@@ -101,6 +101,17 @@ jobs:
           plugin_followup: yes
           filename: assets/metrics.copilotprototypedemo.svg
 
+      - name: Generate repository metrics for visualstudioplugin
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          template: repository
+          user: ottojonas
+          repo: git-status-checker-vsc-plugin
+          plugin_lines: yes
+          plugin_followup: yes
+          filename: assets/metrics.visualstudioplugin.svg
+
       - name: Check if repository metrics file exists
         id: check_file
         run: |
