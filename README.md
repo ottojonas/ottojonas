@@ -9,7 +9,7 @@
 <h2 align="center">About Me</h2>
 <pre>
 <code>
-  > lifefetch
+  >_lifefetch
   Name: Otto 
   Age: 21
   Location: UK
