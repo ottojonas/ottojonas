@@ -70,16 +70,6 @@
     <img src="assets/metrics.peacockgpt.svg" />
   </a>
 </div>
-<div align="center">
-  <a href="https://github.com/ottojonas/jeaneth-app">
-    <img src="assets/metrics.jeaneth-app.svg" />
-  </a>
-</div>
-<div align = "center">
-  <a href="https://github.com/ottojonas/Scribe">
-    <img src='assets/metrics.scribe.svg' />
-  </a>
-</div>
 <div align = "center">
   <a href="https://github.com/ottojonas/CopilotPrototypeDemo">
     <img src='assets/metrics.copilotprototypedemo.svg' />

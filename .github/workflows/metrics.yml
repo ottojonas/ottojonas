@@ -68,28 +68,6 @@ jobs:
           plugin_followup: yes
           filename: assets/metrics.peacockgpt.svg
 
-      - name: Generate repository metrics for jeaneth-app
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GH_TOKEN }}
-          template: repository
-          user: ottojonas
-          repo: jeaneth-app
-          plugin_lines: yes
-          plugin_followup: yes
-          filename: assets/metrics.jeaneth-app.svg
-
-      - name: Generate repository metrics for scribe
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          template: repository
-          user: ottojonas
-          repo: Scribe
-          plugin_lines: yes
-          plugin_followup: yes
-          filename: assets/metrics.scribe.svg
-
       - name: Generate repository metrics for copilotprototypedemo
         uses: lowlighter/metrics@latest
         with:
