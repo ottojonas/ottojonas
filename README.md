@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://discord.gg/NsVBm3gExu#gh-dark-mode-only">
-    <img src="https://lanyard.cnrad.dev/api/1245513579881304108?hideStatus=true&bg=00000000&20&borderRadius=0&theme=dark&hideClan=true&hideDecoration=true&hideDiscrim=true&showDisplayName=true&hideBadges=true&hideStatus=true&idleMessage=touching%20grass" alt="Discord" />
+    <img src="https://lanyard.cnrad.dev/api/1369326130623942706?hideStatus=true&bg=00000000&20&borderRadius=0&theme=dark&hideClan=true&hideDecoration=true&hideDiscrim=true&showDisplayName=true&hideBadges=true&hideStatus=true&idleMessage=touching%20grass" alt="Discord" />
   </a>
 </div>
 
